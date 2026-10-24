@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{NAME}} by {{PUBLISHER}}</title>
+  <meta name="description" content="{{NAME}}: {{DESCRIPTION}}">
+  <link rel="icon" href="/{{SLUG}}/icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="/">{{PUBLISHER}}</a>
+      <nav><a href="/">Games</a><a href="mailto:{{EMAIL}}">Contact</a></nav>
+    </header>
+
+    <main>
+      <section class="game-hero">
+        <img class="icon" src="/{{SLUG}}/icon.png" alt="{{NAME}} icon" width="120" height="120">
+        <div>
+          <h1>{{NAME}}</h1>
+          <p>{{TAGLINE}}</p>
+          <a class="badge" href="https://play.google.com/store/apps/details?id={{PACKAGE}}">Get it on Google Play</a>
+        </div>
+      </section>
+      <img class="feature" src="/{{SLUG}}/feature.png" alt="" width="1024" height="500">
+      <div class="card">
+        <p>{{DESCRIPTION}}</p>
+        <p><a href="/{{SLUG}}/privacy/">Privacy policy</a> · <a href="/{{SLUG}}/terms/">Terms of service</a> · <a href="mailto:{{EMAIL}}?subject={{NAME}}">Support</a></p>
+      </div>
+    </main>
+
+    <footer class="site">© {{YEAR}} {{PUBLISHER}} · <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></footer>
+  </div>
+</body>
+</html>

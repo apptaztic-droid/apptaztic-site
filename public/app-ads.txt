@@ -1,0 +1,3 @@
+# Authorised ad sellers for Apptaztic apps (https://iabtechlab.com/ads-txt/).
+# One line per ad network account; every Apptaztic game shares this file.
+google.com, pub-8072787609237948, DIRECT, f08c47fec0942fa0
